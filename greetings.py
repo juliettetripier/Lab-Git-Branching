@@ -2,9 +2,9 @@
 
 
 def get_friendly_greeting(name):
-	"""Provide a greeting that is friendly, given a name."""
+	"""Provide a greeting that is friendly, given a name. Returns a string."""
 
-	return "Hi {}, glad to see you!".format(name)
+	return "Howdy {}, glad to see you!".format(name)
 
 
 def get_grumpy_greeting(name):
